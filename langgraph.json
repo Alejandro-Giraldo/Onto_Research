@@ -1,0 +1,12 @@
+{
+    "dependencies": [
+        "langchain_neo4j",
+        "neo4j",
+        "langchain_ollama",
+        "langchain_experimental"
+    ],
+      "graphs":{
+        "hetionet": "src/robots/LifeScience_Agents/hetionet_agent.py:hetionet_graph"
+    },
+    "env": ".env"
+}

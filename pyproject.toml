@@ -1,0 +1,22 @@
+[project]
+name = "onto-research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.12.2",
+    "graphdatascience>=1.16",
+    "langchain-community>=0.3.27",
+    "langchain-docling>=1.0.0",
+    "langchain-experimental>=0.3.4",
+    "langchain-neo4j>=0.5.0",
+    "langchain-ollama>=0.3.6",
+    "langgraph>=0.6.6",
+    "neo4j>=5.28.2",
+    "neo4j-genai>=0.4.0",
+    "pandas>=2.3.2",
+    "pip>=25.2",
+    "prefect>=3.4.15",
+    "rdflib>=7.1.4",
+]
